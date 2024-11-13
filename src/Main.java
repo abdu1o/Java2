@@ -12,7 +12,7 @@ public class Main {
         cities.add("New York");
         cities.add("Los Angeles");
         cities.add("Chicago");
-        Country country = new Country("Ukraine", "Europe", 126_476_461, "+38", "Kyiv", List.of("Odesa", "Lviv", "Uzhhorod"));
+        Country country = new Country("Ukraine", "Europe", 126_476_461, "+38", "Kyiv", cities);
         country.displayData();
         System.out.println();
 
